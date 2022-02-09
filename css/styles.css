@@ -147,6 +147,40 @@ header {
   width: 60%;
 }
 
+/* Technologies
+-----------------------------*/
+
+.technologies {
+  background: #CAE9FF;
+}
+
+.technologies-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  text-align: center;
+}
+
+.technologies-container > div {
+
+}
+
+.tech-item {
+}
+
+.tech-item img {
+  width: 200px;
+  margin: 0 auto;
+}
+
+/* .box {
+  background: black;
+  width: 50px;
+  height: 50px;
+  margin: 0 auto;
+} */
+
+
 /* Contact Info
 -----------------------------*/
 
@@ -206,4 +240,12 @@ footer { /*footer is a type selector*/
   .contact-list a {
     padding: 5px;
   }
+
+  .technologies-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+  }
+
+
 }
